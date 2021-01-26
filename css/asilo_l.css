@@ -1,0 +1,152 @@
+		@media only screen and (max-width: 2000px) {
+			header {
+				background-size: cover;
+			}
+		}
+		@media only screen and (max-width: 600px) {
+			header {
+				min-height: 60vw;
+			}
+			header > img {
+				margin: 3vw 50vw 0vw -31vw; 
+				height: 19vw;
+				width: 19vw;
+			}
+			.Name {
+				margin: 3vw 17vw 0vw 0vw;
+				font-size: 12vw;
+			}
+			.subtitle {
+				position: absolute;
+				margin: 19vw 0vw 5vw 21vw;
+				font-size: 7vw;
+			}
+			#description {
+				position: absolute;
+				margin: 35vw 5vw 5vw -13vw;
+				font-size: 4vw;
+				text-shadow: 1px 1px 3px black;
+			}
+			.text {
+				font-size: 3vw;
+			}
+			section {
+				height: 33vw;
+			}
+			.knn, .KNN {
+				float: none;
+			}
+			.klw, .KLW {
+				float: none;
+			}
+			.knn {
+				margin: 1vw 0vw 0vw -18vw;
+			}
+			.klw {
+				position: absolute;
+				margin: 13vw 0vw 0vw -45vw;
+				width: 95%;
+			}
+			.pmgt {
+				position: absolute;
+				font-size: 8vw;
+			}
+			.KNN {
+				position: absolute;
+				margin: 13vw 0vw 0vw -42vw;
+				width: 90%;
+			}
+			.KLW {
+				margin: 1vw 0vw 0vw -20vw;
+			}
+			.button {
+				font-size: 2.5vw;
+			}
+			.b_l, .b_r {
+				width: 20vw;
+			}
+			.b_ll, .b_c, .b_rr {
+				width: 13vw;
+			}
+			.b_l {
+				margin: 23vw 0vw 3vw -23vw;
+			}
+			.b_r {
+				margin: 23vw 0vw 3vw 1vw;
+			}
+			.b_ll {
+				margin: 23vw 0vw 3vw -24vw;
+			}
+			.b_rr {
+				margin: 23vw 0vw 3vw -7vw;
+			}
+			.b_c {
+				margin: 23vw 0vw 3vw 11vw;
+			}
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1110px) {
+			#description {
+				font-size: 3vw;
+				text-shadow: 1px 1px 7px black;
+			}
+			.text {
+				font-size: 2.3vw;
+			}
+			section {
+				height: 33vw;
+			}
+			.knn, .KNN {
+				float: none;
+			}
+			.klw, .KLW {
+				float: none;
+			}
+			.knn {
+				margin: 1vw 0vw 0vw -18vw;
+			}
+			.klw {
+				position: absolute;
+				margin: 13vw 0vw 0vw -45vw;
+				width: 95%;
+			}
+			.pmgt {
+				position: absolute;
+				font-size: 8vw;
+			}
+			.KNN {
+				position: absolute;
+				margin: 13vw 0vw 0vw -42vw;
+				width: 90%;
+			}
+			.KLW {
+				margin: 1vw 0vw 0vw -20vw;
+			}
+			.button {
+				font-size: 2.5vw;
+			}
+			.b_l, .b_r {
+				width: 20vw;
+			}
+			.b_ll, .b_c, .b_rr {
+				width: 13vw;
+			}
+			.b_l {
+				margin: 23vw 0vw 3vw -23vw;
+			}
+			.b_r {
+				margin: 23vw 0vw 3vw 1vw;
+			}
+			.b_ll {
+				margin: 23vw 0vw 3vw -24vw;
+			}
+			.b_rr {
+				margin: 23vw 0vw 3vw -7vw;
+			}
+			.b_c {
+				margin: 23vw 0vw 3vw 11vw;
+			}
+		}
+		
+		
+		
+		

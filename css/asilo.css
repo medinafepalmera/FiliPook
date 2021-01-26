@@ -1,0 +1,141 @@
+		html {
+			position: relative;
+			min-height: 100%;
+		}
+		body {
+			margin: 0 0 150px 0;
+			padding: 0;
+			min-width: 100%;
+		}
+		
+		
+		header {
+			min-width: 100%;
+			min-height: 50vw;
+			z-index: 0;
+			margin: 0px;
+			text-align: center;
+			background: url("../images/background.png") no-repeat fixed center;
+			background-size: 100% 100%;
+		}		
+		header > img {
+			height: 23vw;
+			width: 23vw;
+			float: left;
+			margin: 6vw 90vw 0vw -35vw; 
+			position: absolute;
+		}
+		.Name {
+			position: relative;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-size: 12vw;
+			color: #ffe7df;
+			text-shadow: 0.3vw 0.3vw 1vw black;
+			margin: 7vw 14vw 0vw 50vw; 
+			float: right;
+			animation-name: Pamagat;
+			animation-duration: 5s;
+		}
+		.subtitle {
+			margin: 0vw 11vw 5vw 41vw;
+			font-size: 4vw;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			color: #ffe7df;
+			text-shadow: 0.3vw 0.3vw 0.5vw black;
+		}
+		#description {
+			margin: 2vw 2vw;
+			text-shadow: 1px 1px 15px black;
+			font-size: 2.5vw;
+			color: #ffe7df;
+		}
+		.text {
+			font-size: 2vw;
+			text-align: center;
+		}
+		
+		
+		section {
+			width: 100%;
+			height: 20vw;
+			text-align: center;
+		}
+		.s_1 {
+			background-color: #ffe7df;
+			color: #94523a;
+		}
+		#s_2 {
+			background-color: #94523a;
+			color: #ffe7df;
+		}
+		.knn, .KNN {
+			float: right;
+		}
+		.klw, .KLW {
+			float: left;
+		}
+		.knn {
+			width: 40%;
+			margin: 3vw 0vw;
+		}
+		.klw {
+			display: inline-block;
+			width: 60%;
+			margin: 6vw 0vw;
+		}
+		.KNN {
+			position: relative;
+			width: 60%;
+			margin: 6vw 0vw;
+		}
+		.KLW {
+			position: absolute;
+			display: inline-block;
+			width: 40%;
+			margin: 3vw 90vw 3vw -18vw;
+		}
+		.pmgt {
+			font-size: 7vw;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+		.button {
+			display: inline-block;
+			position: absolute;
+			width: 15vw;
+			border: 0px solid;
+			padding: 0.5vw;
+			background-color: #d99e82;
+			text-decoration: none;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			color: #662113;
+		}
+		.button:active {
+			box-shadow: none;
+		}
+		.b_l, .b_ll {
+			box-shadow: -5px 5px 8px 2px rgba(0,0,0,0.2);
+		}
+		.b_r, .b_rr {
+			box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.2);
+		}
+		.b_ll, .b_c, .b_rr {
+			width: 10vw;
+		}
+		.b_l {
+			margin: 13vw 12vw 3vw 3vw;
+		}
+		.b_r {
+			margin: 13vw 3vw 3vw 20vw;
+		}
+		.b_ll {
+			margin: 13vw 2vw 3vw -16vw;
+		}
+		.b_rr {
+			margin: 13vw 2vw 3vw 10vw;
+		}
+		.b_c {
+			box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.2);
+		}
+		.b_c {
+			margin: 13vw 2vw 3vw -3vw;
+		}

@@ -1,0 +1,38 @@
+		.bg {
+			list-style-type: none;
+			font-size: 20px;
+			text-align: center;
+		}
+		.sagot {
+			font-size: 18px;
+			padding: 0 20px;
+			opacity: 0.9;
+			color: #a65b3f;
+		}		
+
+		#bugtong_1, #bugtong_2, #bugtong_3, #bugtong_4, #bugtong_5 {
+			display: none;
+		}
+		
+		#bugtong_1:target, #bugtong_2:target, #bugtong_3:target, #bugtong_4:target, #bugtong_5:target {
+			display: block;
+			vertical-align: middle;
+		}
+		
+		input:invalid {
+			background-color: hsla(0, 90%, 70%, 1)
+		}
+		input:valid {
+			background-color: hsla(100, 90%, 70%, 1);
+		}
+		
+		.sgt {
+			display: none;
+			padding: 2px;
+			background-color: hsla(100, 90%, 70%, 1);
+			z-index: 2;
+		}
+		.sgt_s:hover .sgt{
+			display: inline-block;
+		}
+		

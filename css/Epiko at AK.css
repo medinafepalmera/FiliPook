@@ -1,0 +1,8 @@
+		#epiko_1, #epiko_2, #epiko_3, #epiko_4, #epiko_5, #epiko_6, #epiko_7, #epiko_8, #epiko_9, #epiko_10 {
+			display: none;
+		}
+		
+		#epiko_1:target, #epiko_2:target, #epiko_3:target, #epiko_4:target, #epiko_5:target, #epiko_6:target, #epiko_7:target, #epiko_8:target, #epiko_9:target, #epiko_10:target {
+			display: block;
+			vertical-align: middle;
+		}

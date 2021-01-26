@@ -1,0 +1,45 @@
+		@media only screen and (max-width: 600px) {
+			footer {
+				font-size: 3vw;
+			}
+			footer > a {
+				zoom: 0.25;
+				top: 10vw;
+			} 
+			.fb, .twt, .ig, .fb:hover, .twt:hover, .ig:hover {
+				width: 180px;
+				height: 180px;
+			}
+			.fb {
+				left: 140vw;
+			}
+			.twt {
+				left: 180vw;
+			}
+			.ig {
+				left: 220vw;
+			}
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1110px) {
+			footer {
+				height: 160px;
+				font-size: 15px;
+			}
+			footer > a {
+				zoom: 0.28;
+				top: 10vw;
+			} 
+			.fb, .twt, .ig, .fb:hover, .twt:hover, .ig:hover {
+				width: 180px;
+				height: 180px;
+			}
+			.fb {
+				left: 140vw;
+			}
+			.twt {
+				left: 165vw;
+			}
+			.ig {
+				left: 190vw;
+			}
+		}

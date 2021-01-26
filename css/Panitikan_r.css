@@ -1,0 +1,235 @@
+		@media only screen and (max-width: 2000px) {
+			header {
+				background-size: cover 100%;
+				width: 100%;
+			}
+		}
+		@media only screen and (max-width: 600px) {
+			body {
+				height: 160vw;
+			}
+			.text {
+				font-size: 3vw;
+			}
+			.title {
+				font-size: 5vw;
+			}
+			header {
+				height: 25vw;
+				width: 100%;
+			}
+			.h_title {
+				margin: 1vw 0vw 0vw 25vw;
+				font-size: 7vw;
+			}
+			.h_description {
+				margin: 14vw 0vw 0vw 9vw;
+				font-size: 3.5vw;
+			}
+			section {
+				height: 140vw;
+			}
+			.local_nav {
+				display: none;
+			}
+			.local_navr {
+				display: block;
+				height: 5vw;
+				padding: 1vw;
+				box-shadow: 0vw 0.5vw 0.8vw 0vw grey;
+				width: 97.9%;
+				position: sticky;
+				top: 0;
+			}
+			.al {
+				padding-left: 0;
+				text-align: center;
+				font-size: 4.5vw;
+			}
+			.dd {
+				opacity: 1;
+				position: absolute;
+				float: left;
+				top: 0.5vw;
+				left: 0vw;
+				width: 6vw;
+				height: 6vw;
+				background: url("../images/ddc.png") no-repeat center;
+				background-size: 5vw;
+				text-align: left;
+			}
+			.ln_1, .ln_2, .ln_3, .ln_4, .ln_5, .ln_6, .ln_7, .ln_8, .ln_9, .ln_10, .ln_11, .ln_12, .ln_13, .ln_14, .ln_15, .ln_16, .ln_17 {
+				display: none;
+			}
+			.dd:hover {
+				background: url("../images/ddo.png") no-repeat center;
+				background-size: 5vw;
+			}
+			.dd:hover .ln_1, .dd:hover .ln_2, .dd:hover .ln_3, .dd:hover .ln_4, .dd:hover .ln_5, .dd:hover .ln_6, .dd:hover .ln_7, .dd:hover .ln_8, .dd:hover .ln_9, .dd:hover .ln_10, .dd:hover .ln_11, .dd:hover .ln_12, .dd:hover .ln_13, .dd:hover .ln_14, .dd:hover .ln_15, .dd:hover .ln_16, .dd:hover .ln_17 {
+				display: block;
+				position: absolute;
+				width: 28vw;
+				margin-top: 6vw;
+				background-color: #e3c1b5;
+				box-shadow: 0vw 0.2vw 0.3vw 0vw grey;
+				padding: 1vw;
+			}
+			.ln_1 > li, .ln_2 > li, .ln_3 > li, .ln_4 > li, .ln_5 > li, .ln_6 > li, .ln_7 > li, .ln_8 > li, .ln_9 > li, .ln_10 > li, .ln_11 > li, .ln_12 > li, .ln_13 > li, .ln_14 > li, .ln_15 > li, .ln_16 > li, .ln_17 > li {
+				list-style-type: none;
+				font-size: 3vw;
+			}
+			.dd:hover .ln_1 {
+				height: 23.8vw;
+			}
+			.dd:hover .ln_3 {
+				height: 18vw;
+				margin: 6vw -25vw 0vw 0vw;
+			}
+			.dd:hover .ln_4 {
+				height: 58vw;
+				margin: 6vw -39vw 0vw 0vw;
+			}
+			.ln_4 .op {
+				font-size: 3vw;
+				padding: 0.8vw 0vw;
+			}
+			.dd:hover .ln_5 {
+				height: 28vw;
+				margin: 6vw -26vw 0vw 0vw;
+			}
+			.ln_5 .op, .ln_6 .op, .ln_7 .op, .ln_10 .op, .ln_12 .op, .ln_13 .op, .ln_14 .op, .ln_15 .op, .ln_16 .op, .ln_17 .op {
+				font-size: 3vw;
+			}
+			.dd:hover .ln_6, .dd:hover .ln_9, .dd:hover .ln_14 {
+				margin: 6vw -25vw 0vw 0vw;
+			}
+			.dd:hover .ln_7, .dd:hover .ln_10, .dd:hover .ln_16 {
+				margin: 6vw -24vw 0vw 0vw;
+			}
+			.dd:hover .ln_8, .dd:hover .ln_11, .dd:hover .ln_12, .dd:hover .ln_13, .dd:hover .ln_17 {
+				margin: 6vw -26vw 0vw 0vw;
+			}
+			.dd:hover .ln_14 {
+				width: 10vw;
+				margin: 6vw -13vw 0vw 0vw;
+			}
+			.ln_14 .m_op {
+				text-align: center;
+			}
+			.dd:hover .ln_15 {
+				width: 15vw;
+				margin: 6vw -15vw 0vw 0vw;
+				font-size: 3.5vw;
+			}
+			li > .op, li > .m_op {
+				width: 100%;
+				margin-left: 0;
+				padding: 0.1vw 0vw;
+				text-align: left;
+			}
+			li > .op:hover, li > .m_op:hover {
+				background-color: #dcb2a3;
+				padding: 0;
+			}
+			.kaliwa_t {
+				width: 99%;
+				height: 25vw;
+			}
+			.pam_t {
+				display: none;
+			}
+			.laman_t {
+				font-size: 3vw; 
+				text-align: center;
+				margin: 3vw 0vw;
+				padding: 0;
+			}
+			.kaliwa_b {
+				display: none;
+			}
+			.kanan, .m_kanan {
+				height: 110vw;
+				width: 100%;
+				overflow-y: auto;
+			}
+			.m_kanan {
+				height: 135vw;
+			}
+			.m_kanan2 {
+				height: 143vw;
+			}
+			.pam_d {
+				font-size: 3vw;
+			}
+			.ep {
+				font-size: 2.8vw;
+			}
+			.k_laman {
+				font-size: 2vw;
+			}
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1110px) {
+			.text {
+				font-size: 2.5vw;
+			}
+			.title {
+				font-size: 3.3vw;
+			}
+			header {
+				height: 15vw;
+				width: 100%;
+			}
+			.h_title {
+				margin: 2vw 0vw 0vw 5vw;
+				font-size: 5vw;
+			}
+			.h_description {
+				margin: 5.5vw 0vw 0vw 44vw;
+				font-size: 2.3vw;
+			}
+			section {
+				height: auto;
+			}
+			.local_nav {
+				display: block;
+				position: sticky;
+				top: 0;
+				height: 25px;
+				width: 99.5%;
+				padding: 2px;
+			}
+			.op {
+				margin: 0vw 4vw;
+			}
+			.t_op {
+				margin: 0vw 6vw;
+			}
+			.m_op {
+				margin: 0vw 0.5vw;
+			}
+			.kaliwa_t {
+				height: 20vw;
+			}
+			.laman_t, .laman_b {
+				font-size: 1.8vw;
+			}
+			.kaliwa_b {
+				height: 38vw;
+			}
+			.pam_b {
+				font-size: 2.8vw;
+			}
+			.kanan {
+				height: 60vw;
+				width: 61.9vw;
+			}
+			.ep, .k_laman {
+				font-size: 2vw;
+			}
+			.m_kanan {
+				height: 70vw;
+			}
+			.m_kanan2 {
+				height: 73vw;
+			}
+		}

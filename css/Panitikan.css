@@ -1,0 +1,220 @@
+		html {
+			position: relative;
+			min-height: 100%;
+		}
+		body {
+			margin: 0 0 0 0;
+			padding: 0;
+			width: 100%;
+		}
+		
+		
+		.text {
+			color: #94523a;
+			font-size: 2vw;
+			text-align:center;
+		}
+		.title {
+			font-size: 12vw;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			padding:1vw;
+		}
+		
+		
+		header {
+			position: sticky;
+			top: 0;
+			background:  url("../images/background.png") no-repeat fixed center;
+			background-size: 100% 100%;
+			height: 17vw;
+			margin: 0;
+			z-index: 0;
+			color: #ffe7df;
+		}
+		.h_title {
+			display: inline-block;
+			position: absolute;
+			margin: 3vw 0vw 0vw 3vw;
+			text-shadow: 0.3vw 0.3vw 0.5vw black;
+			font-size: 5vw;
+		}
+		.h_description {
+			display: inline-block;
+			position: absolute;
+			margin: 6.3vw 2vw 0vw 46vw;
+			text-shadow: 0.15vw 0.15vw 0.2vw black;
+			font-size: 1.8vw;
+		}
+		.h_description > a {
+			color: #ffe7df;
+		}
+		
+		
+		section {
+			height: 60vw;
+		}
+		
+		.local_nav, .local_navr {
+			position: sticky;
+			top: 0;
+			z-index: 1;
+			height: 2vw;
+			width: 98.5%;
+			padding: 0.75vw;
+			background-color: #e3c1b5;
+			box-shadow: 0vw 0.2vw 0.3vw 0vw grey;
+			text-align: center;
+		}
+		.local_navr {
+			display: none;
+		}
+		.al {
+			display: inline-block;
+			padding-left: 5vw;
+		}
+		#ln {
+			padding: 0.75vw;
+		}
+		.dd {
+			opacity: 0;
+		}
+		.op, .t_op, .m_op {
+			display: inline-block;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1.8vw;
+		}
+		.op {
+			margin: 0vw 5vw;
+		}
+		.op:hover, .t_op:hover, .m_op:hover {
+			color: #f8f0ed;
+		}
+		.t_op{ 
+			margin: 0vw 7vw;
+		}
+		.m_op {
+			margin: 0vw 1vw;
+		}
+		
+		.kaliwa_t {
+			position: relative;
+			display: inline-block;
+			float: left;
+			width: 36.3vw;
+			height: 15vw;
+			top: 0;
+			left: 0;
+			padding: 0.5vw;
+			background-color: #e7dfff;
+			text-align: justify;
+		}
+		.pam_t {
+			font-size: 2vw; 
+			text-align:left; 
+			margin-left:1vx;
+		}
+		.laman_t {
+			font-size: 1.3vw; 
+			margin-left:4vw; 
+			margin-right:1vw;
+		}
+		
+		.kaliwa_b {
+			position: relative;
+			display: inline-block;
+			float: left;
+			margin: 0;
+			width: 36.3vw;
+			height: 28vw;
+			overflow-y: auto;
+			padding: 0.5vw;
+			background-color: #dfffe7;
+			text-align: center;
+		}
+		.kaliwa_br {
+			display: none;
+		}
+		.kaliwa_b > ul, .kaliwa_br > ul {
+			list-style-type:none;
+		}
+		.pam_b {
+			font-size: 2vw; 
+			margin-left:0;
+			text-decoration: none;
+			color: #0000b3;
+		}
+		.laman_b {
+			font-size: 1.5vw; 
+			margin-left: 2vw; 
+			margin-right:1vw;
+			color: maroon;
+		}
+		
+		.kanan {
+			position: relative;
+			display: inline-block;
+			float: right;
+			margin: 0;
+			height: 45vw;
+			width: 61.9vw;
+			overflow-y: auto;
+			background-color: #ffe7df;
+			vertical-align: top;
+			text-align: center;
+		}
+		.kanan ul {
+			list-style-type:none;
+			color: #94523a;
+		}
+		.pam_d {
+			font-size: 1.5vw;
+		}
+		
+		.ep {
+			font-size: 1.3vw; 
+			text-align: justify; 
+			padding: 0 2vw; 
+			display: block;
+		}
+		
+		.k_laman {
+			font-size: 1.3vw; 
+		}
+		
+		.ABAKADA li{
+			display: inline;
+		}
+		
+		.m_kanan {
+			position: relative;
+			display: inline-block;
+			float: right;
+			margin: 0;
+			height: 45vw;
+			width: 100%;
+			overflow-y: auto;
+			background-color: #ffe7df;
+			vertical-align: top;
+			text-align: center;
+		}
+		.m_kanan2 {
+			height: 49vw;
+		}
+		.m_ep {
+			font-size: 1.5vw; 
+			text-align: justify;
+			padding: 1vw 2vw;
+			vertical-align: middle;
+		}
+		audio {
+			width: 100px;
+			height: 20px;
+		}
+		
+		.num {
+			text-decoration: none;
+			display: inline;
+			font-size: 1.2vw;
+		}
+		

@@ -1,0 +1,7 @@
+	#m_1, #m_2, #m_3, #m_4, #m_5, #m_6, #m_7, #m_8, #m_9, #m_10, #m_11, #m_12, #m_13, #m_14, #m_15, #m_16, #m_17, #m_18, #m_19, #m_20, #m_21, #m_22, #m_23, #m_24, #m_25, #m_26 {
+		display: none;
+	}
+	#m_1:target, #m_2:target, #m_3:target, #m_4:target, #m_5:target, #m_6:target, #m_7:target, #m_8:target, #m_9:target, #m_10:target, #m_11:target, #m_12:target, #m_13:target, #m_14:target, #m_15:target, #m_16:target, #m_17:target, #m_18:target, #m_19:target, #m_20:target, #m_21:target, #m_22:target, #m_23:target, #m_24:target, #m_25:target, #m_26:target {
+		display: block;
+		vertical-align: middle;
+	}

@@ -1,0 +1,9 @@
+		.lnk:link, .lnk:visited {
+			color: #531aff;
+		}
+		.lnk:hover {
+			color: #d8ccff;
+		}
+		.lnk:active {
+			color: #200080;
+		}

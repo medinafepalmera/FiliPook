@@ -1,0 +1,43 @@
+		footer {
+			position: absolute;
+			bottom: 0;
+			height: 160px;
+			width: 100%;
+			background: url("../images/footer_bg.png") no-repeat center;
+			background-size: 100% 100%;
+			color: #ffe7df;
+			text-align: center;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-size: 1.3vw;
+		}
+		footer > a {
+			display: block;
+			position: absolute;
+			zoom: 0.3;
+			top: 7vw;
+		} 
+		.fb, .twt, .ig, .fb:hover, .twt:hover, .ig:hover {
+			width: 180px;
+			height: 180px;
+		}
+		.fb {
+			background: url("../images/icons.png") no-repeat -49px -42px;
+			left: 143vw;
+		}
+		.twt {
+			background: url("../images/icons.png") no-repeat -236px -42px;
+			left: 158vw;
+		}
+		.ig {
+			background: url("../images/icons.png") no-repeat -424px -243px;
+			left: 173vw;
+		}
+		.fb:hover {
+			background: url("../images/icons_hover.png") no-repeat -49px -42px;
+		}
+		.twt:hover {
+			background: url("../images/icons_hover.png") no-repeat -51px -243px;
+		}
+		.ig:hover {
+			background: url("../images/icons_hover.png") no-repeat -245px -55px;
+		}

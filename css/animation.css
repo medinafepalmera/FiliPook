@@ -1,0 +1,98 @@
+		@font-face {
+			font-family: baybayin;
+			src: url("../font/TagalogStylized-GOJeq.ttf");
+		}
+		.baybayin {
+			font-family: baybayin;
+			src: url("../font/TagalogStylized-GOJeq.ttf");
+		}
+		#Pamagat {
+			position: absolute;
+			z-index: 1;
+			opacity: 0;
+			min-width: 100%;
+			min-height: 50vw;
+			background: url("../images/loop.gif") no-repeat fixed center;
+			background-size: 100% 100%;
+			animation: pam 7s;
+		}
+		.bybyn {
+			font: 8vw baybayin;
+			color: #ffe7df;
+			position: absolute;
+			opacity: 0;
+		}
+		#fi {
+			margin: 5vw 0vw 15vw 45vw;
+			animation: fi 1s forwards;
+		}
+		#li {
+			margin: 12vw 0vw 15vw 45vw;
+			animation: li 1s 1s forwards;
+		}
+		#po {
+			margin: 18vw 0vw 15vw 45vw;
+			animation: po 1s 2s forwards;
+		}
+		#o {
+			margin: 26vw 0vw 15vw 46vw;
+			animation: o 1s 3s forwards;
+		}
+		#k {
+			margin: 33vw 0vw 15vw 45vw;
+			animation: li 1s 3.7s forwards;
+		}
+		@keyframes pam {
+			0%{opacity: 1;}
+			95% {opacity: 1;}
+			100% {opacity: 0;}
+		}
+		@keyframes fi {
+			from {opacity: 0.1;}
+			to {opacity: 1;}
+		}
+		@keyframes li {
+			from {opacity: 0.1;}
+			to {opacity: 1;}
+		}
+		@keyframes po {
+			from {opacity: 0.1;}
+			to {opacity: 1;}
+		}
+		@keyframes o {
+			from {opacity: 0.1;}
+			to {opacity: 1;}
+		}
+		@keyframes k {
+			from {opacity: 0.1;}
+			to {opacity: 1;}
+		}
+		@media only screen and (max-width: 600px) {
+			#Pamagat {
+				height: 60vw;
+				background-size: 250% 100%;
+			}
+			.bybyn {
+				font-size: 10vw;
+			}
+			#fi {
+				margin: 5vw 0vw 15vw 45vw;
+			}
+			#li {
+				margin: 14vw 0vw 15vw 45vw;
+			}
+			#po {
+				margin: 23vw 0vw 15vw 45vw;
+			}
+			#o {
+				margin: 32vw 0vw 15vw 46vw;
+			}
+			#k {
+				margin: 39vw 0vw 15vw 45vw;
+			}
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1199px) {
+			#Pamagat {
+				background-size: 130% 100%;
+			}
+		}

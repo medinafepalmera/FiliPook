@@ -1,0 +1,23 @@
+		#tula_1, #tula_2, #tula_3, #tula_4, #tula_5 {
+			display: none;
+		}
+		
+		#tula_1:target, #tula_2:target, #tula_3:target, #tula_4:target, #tula_5:target {
+			display: block;
+			vertical-align: middle;
+		}
+		
+		.tla {
+			margin-left: 0;
+			font-size: 1.3vw;
+		}
+		@media only screen and (max-width: 600px) {
+			.tla {
+				font-size: 3vw;
+			}
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1110px) {
+			.tla {
+				font-size: 1.8vw;
+			}
+		}

@@ -1,0 +1,42 @@
+		.local_nav {
+			position: sticky;
+			top: 0;
+			z-index: 1;
+			height: 2vw;
+			width: 98.5%;
+			padding: 0.75vw;
+			background-color: #e3c1b5;
+			box-shadow: 0vw 0.2vw 0.3vw 0vw grey;
+			text-align: center;
+		}
+		.op, .t_op, .m_op {
+			display: inline-block;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1.8vw;
+		}
+		.op {
+			margin: 0vw 3vw;
+		}
+		.op:hover, .t_op:hover, .m_op:hover {
+			color: #f8f0ed;
+		}
+		.t_op{ 
+			margin: 0vw 7vw;
+		}
+		@media only screen and (min-width: 600px) and (max-width: 1110px) {
+			.local_nav {
+				height: 25px;
+				width: 99.35%;
+				padding: 2px;
+			}
+			.op {
+				margin: 0vw 4vw;
+			}
+			.t_op {
+				margin: 0vw 6vw;
+			}
+			.m_op {
+				margin: 0vw 0.5vw;
+			}
+		}

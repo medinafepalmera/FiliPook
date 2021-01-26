@@ -1,0 +1,31 @@
+		.sl {
+			list-style-type: none;
+			font-size: 20px;
+			text-align: center;
+		}
+		.kahulugan {
+			font-size: 18px;
+			font-style: italic;
+			padding: 0 20px;
+			opacity: 0.9;
+		}
+		.sl {
+			list-style-type: none;
+			font-size: 20px;
+			text-align: center;
+		}
+		.kahulugan {
+			font-size: 18px;
+			font-style: italic;
+			padding: 0 20px;
+		}
+		
+		#salawikain_1, #salawikain_2, #salawikain_3, #salawikain_4, #salawikain_5 {
+			display: none;
+		}
+		
+		#salawikain_1:target, #salawikain_2:target, #salawikain_3:target, #salawikain_4:target, #salawikain_5:target {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		

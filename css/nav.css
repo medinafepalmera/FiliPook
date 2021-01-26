@@ -1,0 +1,120 @@
+		nav ul {
+			list-style-type: none;
+			padding: 2px;
+		}
+		nav a {
+			text-decoration: none;
+		}
+		nav {
+			display: block;
+			position: fixed;
+			width: 70px;
+			height: 70px;
+			top: 3px;
+			right: 3px;
+			background: url("../images/closed-book.png") center;
+			background-size: 70px 70px;
+			cursor: pointer;
+			z-index: 3;
+		}
+		nav:hover {
+			background: url("../images/open-book.png") center;
+			background-size: 70px 70px;
+		}
+		
+		.nav_content {
+			display: none;
+			position: fixed;
+			height: 467px;
+			width: 300px;
+			top: 73px;
+			right: 3px;
+			background-color: #d99e82;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			border-radius: 25px;
+			text-align: right;
+		}
+		nav:hover .nav_content {
+			display: block;
+		}
+		.sub, .main, .asilo{
+			padding: 12px 16px;
+			text-decoration: none;
+			font-size: 25px;
+			display: block;
+		}
+		.sub {
+			color: #2a1e1b;
+			margin: 0;
+		}
+		.sub:hover {
+			background-color: #c48e74;
+		}
+		.main, .asilo {
+			margin: 0;
+			background-color: #f7b094;
+			color: #332521;
+		}
+		.nav_content > a:hover {
+			color: #f8f0ed;
+			background-color: #ffb699;
+		}
+		#ulo {
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
+		}
+		#paa {
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+		}
+		
+		.AP_content, .AT_content, .L_content, .B_content{
+			display: none;
+			position: fixed;
+			width: 150px;
+			right: 303px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			border-top-left-radius: 25px;
+			border-bottom-left-radius: 25px;
+			background-color: #d99e82;
+			text-align: center;
+			font-size: 20px;
+		}
+		div > a {
+			color: #662113;
+			display: block;
+			padding: 2px;
+		}
+		.t {
+			border-top-left-radius: 25px;
+		}
+		.b {
+			border-bottom-left-radius: 25px;
+		}
+		.AP_content a:hover, .AT_content a:hover, .L_content a:hover, .B_content a:hover{
+			color: #f8f0ed;
+			background-color: #e3c1b5;
+		}
+		.AP:hover .AP_content {
+			display: block;
+			top: 177px;
+			height: 135px;
+		}
+		.AT:hover .AT_content {
+			display: block;
+			top: 228px;
+			height: 161px;
+		}
+		.L:hover .L_content {
+			display: block;
+			top: 332px;
+			height: 55px;
+		}
+		.B:hover .B_content {
+			display: block;
+			top: 384px;
+			height: 80px;
+		}
+		.mk {
+			font-size: 18px;
+		}
